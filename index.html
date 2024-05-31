@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>System Settings</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>System Settings</h1>
+    
+    <div class="setting">
+        <label for="darkMode">Dark Mode:</label>
+        <input type="checkbox" id="darkMode" checked>
+    </div>
+    
+    <div class="setting">
+        <label for="sound">Sound Volume:</label>
+        <input type="range" id="sound" min="0" max="100" value="70">
+    </div>
+    
+    <div class="setting">
+        <label for="notifications">Notifications:</label>
+        <select id="notifications">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+        </select>
+    </div>
+    
+    <div class="setting">
+        <label for="screenTime">Screen Time Limit:</label>
+        <input type="text" id="screenTime" placeholder="Enter time limit (minutes)">
+    </div>
+    
+    <div class="setting">
+        <label for="wifi">Wi-Fi:</label>
+        <input type="checkbox" id="wifi" checked>
+    </div>
+    
+    <button class="btn">Save Changes</button>
+</div>
+
+</body>
+</html>
+
